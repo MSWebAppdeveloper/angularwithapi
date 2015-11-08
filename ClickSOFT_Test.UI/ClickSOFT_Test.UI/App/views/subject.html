@@ -1,0 +1,40 @@
+﻿<div class="container" data-ng-controller="AppSubjectController as subject">
+
+    <div class="row">
+        <div class="panel panel-success">
+            <div class="panel-title"></div>
+
+            <div class="panel-body">
+
+                <div class="row " style="margin-top:20px">
+                    <div class="col-md-8">
+                        <div class="col-md-4">
+                            Name :-<label class="pull-right" ng-bind="subject.Name"></label>
+                        </div>
+                        <div class="col-md-4">
+                            Address :-<label class="pull-right" ng-bind="subject.Address"> </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-md-2">
+                            <a ui-sref="subject.sales" class="btn btn-link">Sales</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a ui-sref="subject.supplies" class="btn btn-link">Supplies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   
+    <br />
+    <br />
+
+    <div class="row">
+        <!-- Placeholder for child views -->
+        <ui-view></ui-view>
+    </div>
+</div>

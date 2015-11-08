@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickSOFT_Test.UI", "ClickSOFT_Test.UI\ClickSOFT_Test.UI.csproj", "{B20F687C-535C-4CC3-AB4B-DD79B057AFC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickSOFT_Test.Portable", "ClickSOFT_Test.Portable\ClickSOFT_Test.Portable.csproj", "{F0A8F7DD-CDC6-4DDC-AE8B-187D4B4CF241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B20F687C-535C-4CC3-AB4B-DD79B057AFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20F687C-535C-4CC3-AB4B-DD79B057AFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20F687C-535C-4CC3-AB4B-DD79B057AFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20F687C-535C-4CC3-AB4B-DD79B057AFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A8F7DD-CDC6-4DDC-AE8B-187D4B4CF241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A8F7DD-CDC6-4DDC-AE8B-187D4B4CF241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A8F7DD-CDC6-4DDC-AE8B-187D4B4CF241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A8F7DD-CDC6-4DDC-AE8B-187D4B4CF241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@section headStylesAndScripts
+{
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/angular")
+
+<!-- App Javascript files -->
+<script src="~/App/CS_test.module.js"></script>
+<!--Config-->
+<script src="~/App/core/config.js"></script>
+<!-- App Services -->
+<script src="~/App/services/CS_test.services.subjects.js"></script>
+<!-- App Controllers-->
+<script src="~/App/controllers/CS_test.controller.main.js"></script>
+<script src="~/App/controllers/CS_test.controller.dashboard.js"></script>
+<script src="~/App/controllers/CS_test.controller.sales-add.js"></script>
+<script src="~/App/controllers/CS_test.controller.sales.js"></script>
+<script src="~/App/controllers/CS_test.controller.subject.js"></script>
+<script src="~/App/controllers/CS_test.controller.supplies.js"></script>
+<!-- Directives -->
+<script src="~/App/directive/subjectDropDownItem.js"></script>
+
+}
+
+<!-- Parent ui-view -->
+<ui-view></ui-view>

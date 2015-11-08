@@ -1,0 +1,74 @@
+﻿<div class="row">
+
+    <form class="form-horizontal" role="form" name="saleForm">
+        <div class="form-group" ng-class="{'has-error':saleForm.InvoiceNo.$invalid}">
+            <label class="control-label col-md-2">Invoice No:</label>
+            <input type="text" ng-model="Sale.InvoiceNo" class="form-control" id="InvoiceNo" name="InvoiceNo" required="">
+            <span ng-show="saleForm.InvoiceNo.$dirty && saleForm.InvoiceNo.$invalid">
+                <span ng-show="saleForm.InvoiceNo.$error.required">InvoiceNo is required.</span>
+            </span>
+        </div>
+        <b>Detail :-</b>
+        <div class="form-group" ng-class="{'has-error':saleForm.ProductId.$invalid}">
+            <label class="control-label col-md-2">Product:</label>
+            <select class="form-control" ng-model="ProductId" name="ProductId" required>
+                <option ng-repeat="item in Items" value="{{item.Id}}">{{item.Name}}</option>
+            </select>
+
+            <span style="color:red" ng-show="saleForm.ProductId.$dirty && saleForm.ProductId.$invalid">
+                <span ng-show="saleForm.ProductId.$error.required">ProductId is required.</span>
+            </span>
+        </div>
+        <div class="form-group" ng-class="{'has-error':saleForm.Qty.$invalid}">
+            <label class="control-label col-md-2">Qty:</label>
+            <input type="text" class="form-control" name="Qty" ng-model="Qty" required>
+            <span style="color:red" ng-show="saleForm.Qty.$dirty && saleForm.Qty.$invalid">
+                <span ng-show="saleForm.Qty.$error.required">Qty is required.</span>
+            </span>
+        </div>
+        <div class="form-group" ng-class="{'has-error':saleForm.Price.$invalid}">
+            <label class="control-label col-md-2">Price:</label>
+            <input type="text" name="Price" class="form-control" ng-model="Price" required>
+            <span style="color:red" ng-show="saleForm.Price.$dirty && saleForm.Price.$invalid">
+                <span ng-show="saleForm.Price.$error.required">Price is required.</span>
+            </span>
+        </div>
+        <div class="form-group" ng-class="{'has-error':saleForm.Amount.$invalid}">
+            <label class="control-label col-md-2">Amount:</label>
+            <input type="text" name="Amount" class="form-control" ng-model="Amount" required>
+            <span style="color:red" ng-show="saleForm.Amount.$dirty && saleForm.Amount.$invalid">
+                <span ng-show="saleForm.Amount.$error.required">Amount is required.</span>
+            </span>
+        </div>
+        <br />
+        <br />
+
+        <button type="button" class="btn btn-primary" ng-click="AddDetail()" ng-disabled="saleForm.$invalid">Add Detail</button>
+        <br />
+        <br />
+        <br />
+        <br /><br />
+        <br /><br />
+        <br />
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Pruduct id</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Amount</th>
+                </tr>
+                <tr ng-repeat="detail in Sale.SalesDetail">
+                    <td>{{detail.ProductId}}</td>
+                    <td>{{detail.Qty}}</td>
+                    <td>{{detail.Price}}</td>
+                    <td>{{detail.Amount}}</td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <br />
+
+        <button type="submit" class="btn btn-primary" ng-click="Save()" ng-disabled="saleForm.$invalid">Save</button>
+    </form>
+</div>

@@ -1,0 +1,10 @@
+J:\Ajinder\Visual Studio Projects\ClickSOFT_Test\ClickSOFT_Test.Portable\bin\Debug\ClickSOFT_Test.Portable.dll
+J:\Ajinder\Visual Studio Projects\ClickSOFT_Test\ClickSOFT_Test.Portable\bin\Debug\ClickSOFT_Test.Portable.pdb
+J:\Ajinder\Visual Studio Projects\ClickSOFT_Test\ClickSOFT_Test.Portable\obj\Debug\ClickSOFT_Test.Portable.csprojResolveAssemblyReference.cache
+J:\Ajinder\Visual Studio Projects\ClickSOFT_Test\ClickSOFT_Test.Portable\obj\Debug\ClickSOFT_Test.Portable.dll
+J:\Ajinder\Visual Studio Projects\ClickSOFT_Test\ClickSOFT_Test.Portable\obj\Debug\ClickSOFT_Test.Portable.pdb
+J:\Ajinder\ClickSoft_Test\clicksoft\ClickSOFT_Test.UI\ClickSOFT_Test.Portable\bin\Debug\ClickSOFT_Test.Portable.dll
+J:\Ajinder\ClickSoft_Test\clicksoft\ClickSOFT_Test.UI\ClickSOFT_Test.Portable\bin\Debug\ClickSOFT_Test.Portable.pdb
+J:\Ajinder\ClickSoft_Test\clicksoft\ClickSOFT_Test.UI\ClickSOFT_Test.Portable\obj\Debug\ClickSOFT_Test.Portable.csprojResolveAssemblyReference.cache
+J:\Ajinder\ClickSoft_Test\clicksoft\ClickSOFT_Test.UI\ClickSOFT_Test.Portable\obj\Debug\ClickSOFT_Test.Portable.dll
+J:\Ajinder\ClickSoft_Test\clicksoft\ClickSOFT_Test.UI\ClickSOFT_Test.Portable\obj\Debug\ClickSOFT_Test.Portable.pdb
